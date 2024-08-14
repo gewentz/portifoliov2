@@ -14,7 +14,7 @@ export default {
         secondary: "#7154BB",
       },
       backgroundImage: {
-        "site-pattern": "url('./public/bg.png')",
+        "site-pattern": "url('./public/bg-animated.svg')",
       }
     },
     plugins: [],
