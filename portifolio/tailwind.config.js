@@ -17,6 +17,7 @@ export default {
         "site-pattern": "url('./bg-animated.svg')",
         "logo": "url('https://i.imgur.com/vkBFMZ5.png')",
         "site-cover": "url('https://i.imgur.com/8ConyDK.png')",
+        "desktop-cover": "url('https://i.imgur.com/tlYNmND.png')",
       }
     },
     plugins: [],

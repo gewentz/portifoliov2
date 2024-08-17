@@ -5,11 +5,12 @@ const HoverGrow = () => {
 
   const spanContents = [
     <a
+      key={0}
       href="https://setembro-amarelo-eosin.vercel.app/"
-      blank
+      target="_blank"
       className="bg-site-cover bg-no-repeat bg-center bg-cover w-full h-full rounded-md flex flex-col justify-end space-y-3 p-2 overflow-hidden items-center "
     >
-      <h2 className="uppercase font-black z-10 text-gray-950 bg-primary p-2 rounded-md w-fit">
+      <h2 className="uppercase font-black z-10 text-gray-50 bg-primary p-2 rounded-md w-fit">
         Site
       </h2>
       <div className="flex flex-row justify-between md:px-4 z-10 gap-2">
@@ -28,19 +29,17 @@ const HoverGrow = () => {
       </div>
     </a>,
     <a
-      href="https://setembro-amarelo-eosin.vercel.app/"
-      blank
-      className="bg-site-cover bg-no-repeat bg-center bg-cover w-full h-full rounded-md flex flex-col justify-end space-y-3 p-2 overflow-hidden items-center "
+      key={1}
+      href="https://github.com/gewentz/electron"
+      target="_blank"
+      className="bg-desktop-cover bg-no-repeat bg-center bg-cover w-full h-full rounded-md flex flex-col justify-end space-y-3 p-2 overflow-hidden items-center "
     >
-      <h2 className="uppercase font-black z-10 text-gray-950 bg-primary p-2 rounded-md w-fit">
-        Site
+      <h2 className="uppercase font-black z-10 text-gray-50 bg-primary p-2 rounded-md w-fit">
+        Sistema de vendas
       </h2>
       <div className="flex flex-row justify-between md:px-4 z-10 gap-2">
         <span className="bg-primary text-gray-200 shadow-lg p-1 px-2 rounded-md text-xs md:text-base overflow-hidden">
           React JS
-        </span>
-        <span className="bg-primary text-gray-200 shadow-lg p-1 px-2 rounded-md text-xs md:text-base overflow-hidden">
-          MongoDB
         </span>
         <span className="bg-primary text-gray-200 shadow-lg p-1 px-2 rounded-md text-xs md:text-base overflow-hidden">
           NodeJS
@@ -48,14 +47,18 @@ const HoverGrow = () => {
         <span className="bg-primary text-gray-200 shadow-lg p-1 px-2 rounded-md text-xs md:text-base overflow-hidden">
           Express
         </span>
+        <span className="bg-primary text-gray-200 shadow-lg p-1 px-2 rounded-md text-xs md:text-base overflow-hidden">
+          Axios
+        </span>
       </div>
     </a>,
     <a
-      href="https://setembro-amarelo-eosin.vercel.app/"
-      blank
+      key={2}
+      href="github.com/gewentz/electron"
+      target="_blank"
       className="bg-site-cover bg-no-repeat bg-center bg-cover w-full h-full rounded-md flex flex-col justify-end space-y-3 p-2 overflow-hidden items-center "
     >
-      <h2 className="uppercase font-black z-10 text-gray-950 bg-primary p-2 rounded-md w-fit">
+      <h2 className="uppercase font-black z-10 text-gray-50 bg-primary p-2 rounded-md w-fit">
         Site
       </h2>
       <div className="flex flex-row justify-between md:px-4 z-10 gap-2">
